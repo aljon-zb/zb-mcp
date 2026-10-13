@@ -59,4 +59,5 @@ principals:
       - peltiertech_acctg@zenaccountants.com
       - peltiertech
     permissions:
-      - "*"
+      - "contacts.*"
+      - "crm.*"
