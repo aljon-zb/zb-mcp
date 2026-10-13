@@ -21,43 +21,12 @@ defaults:
   permissions: []
 
 principals:
-  hanson:
-    label: Hanson
+  name:
+    label: name
     enabled: true
     identifiers:
       # Replace these examples with the real Odoo login/email value(s).
-      - hanson@peltierpro.com
-      - hanson
+      - email
+      - name
     permissions:
       - "*"
-
-  joe:
-    label: Joe
-    enabled: true
-    identifiers:
-      - jnagy@peltierpro.com
-      - joe
-    permissions:
-      - "contacts.*"
-      - "crm.*"
-
-
-  aljon:
-    label: aljon
-    enabled: true
-    identifiers:
-      - aljon.garde1197@gmail.com
-      - aljon
-    permissions:
-      - "contacts.*"
-      - "crm.*"
-
-  peltiertech:
-    label: peltiertech
-    enabled: true
-    identifiers:
-      - peltiertech_acctg@zenaccountants.com
-      - peltiertech
-    permissions:
-      - "contacts.*"
-      - "crm.*"
